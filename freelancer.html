@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'SF함박눈';
+            text-shadow: 0px 0px 10px #768eb4;
+            font-size: 14px;
+            color: #444444;
+            width: 100%;
+            background-color: #fcf6f5;
+        }
+
+        a {
+            color: #fcf6f5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        header {
+            height: 70px;
+            padding: 20px 30px;
+            background-color: #7b9acc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 80px;
+            font-size: 22px;
+            font-weight: bold;
+            flex-wrap: wrap
+        }
+
+        nav li {
+            display: inline;
+        }
+        
+        main {
+            height: 100%;
+            font-size: 18px;
+            flex-wrap: wrap;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #section1 {
+            background-color: #fcf6f5;
+            height: 400px;
+            padding: 2%;
+            gap: 80px;
+        }
+
+        #section2 {
+            background-color: #a6bde2;
+            color: #fcf6f5;
+            height: 400px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        footer {
+            height: 70px;
+            padding: 20px 30px;
+            background-color: #7b9acc;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Pretendard';
+        }
+
+        address {
+            font-family: "Pretendard";
+        }
+
+        @media (max-width: 800px) {
+            header {
+                height: 100px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+            }
+
+            nav li {
+                font-size: 15px;
+            }
+
+            h2 {
+                font-size: 20px
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" width="50" height="50"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="hobby.html">취미로서의,</a></li>
+                <li><a href="student.html">학생으로서의,</a></li>
+                <li><a href="freelancer.html">프리랜서로서의,</a></li>
+                <li><a href="music.html">리스너로서의,</a></li>
+                <li><a href="gamer.html">게이머로서의,</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+        <img src="img/freelancer 1.jpg" width="525" height="300">
+        <img src="img/freelancer 2.jpg" width="525" height="300">
+        <img src="img/freelancer 3.jpg" width="525" height="300">
+        </section>
+
+        <section id="section2"><h2>썸네일 작업을 하면서 가장 마음에 든 작업물들을 가져왔다. <br>
+        영상 편집과 함께 썸네일 그림 작업도 함께 맡았었는데 <br>
+        게임과 그림을 좋아하던 나에게 이 일은 정말 딱맞는 일이란 걸 알게 됐다.</h2> 
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="index.html"><img src="img/logo.png" width="50" height="50"></a>
+        </div>
+        <div>
+            <ul id="address">
+                <li><I>계원예술대학교 디지털미디어디자인학과</I></li>
+                <li><I>22461003 강사랑</I></li>
+                <li><I>© 2024 강사랑. All rights reserved.</I></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

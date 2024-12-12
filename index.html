@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'SF함박눈';
+            text-shadow: 0px 0px 10px #768eb4;
+            font-size: 14px;
+            color: #444444;
+            width: 100%;
+            background-color: #fcf6f5;
+        }
+
+        a {
+            color: #fcf6f5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        header {
+            height: 70px;
+            padding: 20px 30px;
+            background-color: #7b9acc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 80px;
+            font-size: 22px;
+            font-weight: bold;
+            flex-wrap: wrap
+        }
+
+        nav li {
+            display: inline;
+        }
+        
+        main {
+            display: flex;
+            height: 750px;
+            font-size: 18px;
+            flex-wrap: wrap;
+        }
+
+        section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #section1 {
+            background-color: #fcf6f5;
+        }
+
+        #section2 {
+            background-color: #a6bde2;
+            color: #fcf6f5;
+        }
+
+        footer {
+            height: 70px;
+            padding: 20px 30px;
+            background-color: #7b9acc;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Pretendard';
+        }
+
+        address {
+            font-family: "Pretendard";
+        }
+
+        @media (max-width: 800px) {
+            header {
+                height: 100px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+            }
+
+            nav li {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" width="50" height="50"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="hobby.html">취미로서의,</a></li>
+                <li><a href="student.html">학생으로서의,</a></li>
+                <li><a href="freelancer.html">프리랜서로서의,</a></li>
+                <li><a href="music.html">리스너로서의,</a></li>
+                <li><a href="gamer.html">게이머로서의,</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <img src="img/logo 2.png" width="600" height="470">
+        </section>
+
+        <section id="section2">
+            <h2>그녀가 22년동안 살아오며 <br>
+            작업한 다양한 작업물을 소개하려고 한다. <br><br>
+            취미에서부터 시작하여, <br>
+            학생, 프리랜서, 리스너 <br>
+            그리고 게이머로서의 작업물까지 <br><br>
+            그녀의 다채로운 경험과 열정을 엿볼 수 있을 것이다.</h2>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="index.html"><img src="img/logo.png" width="50" height="50"></a>
+        </div>
+        <div>
+            <ul id="address">
+                <li><I>계원예술대학교 디지털미디어디자인학과</I></li>
+                <li><I>22461003 강사랑</I></li>
+                <li><I>© 2024 강사랑. All rights reserved.</I></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
